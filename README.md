@@ -17,12 +17,10 @@ The validation step is powered by **PySpark**, ensuring schema consistency befor
 ```bash
 airflow-orchestration/
 ├── dags/
-│   └── copy_transactions_task2_min.py       
+│   └── copy_transactions_task2_min.py
 ├── jobs/
-│   └── validate_csvs.py                     
+│   └── validate_csvs.py
 ├── assets/
 │   └── airflow_dag_ui.png
-├── requirements.txt                        
+├── requirements.txt
 └── .gitignore
-##   DAG Screenshot
-![Airflow DAG UI](assets/airflow_dag_ui.png)
