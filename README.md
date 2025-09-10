@@ -24,3 +24,5 @@ airflow-orchestration/
 │   └── airflow_dag_ui.png
 ├── requirements.txt                        
 └── .gitignore
+##   DAG Screenshot
+![Airflow DAG UI](assets/airflow_dag_ui.png)
