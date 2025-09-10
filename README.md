@@ -21,6 +21,8 @@ airflow-orchestration/
 ├── jobs/
 │   └── validate_csvs.py                     
 ├── assets/
-│   └── airflow_dag_ui.png                   
+│   └── airflow_dag_ui.png
+![Airflow DAG UI](assets/airflow_dag_ui.png)
+                   
 ├── requirements.txt                        
 └── .gitignore                               
