@@ -26,5 +26,16 @@ airflow-orchestration/
 └── .gitignore
 
 
-``` 
-  - ![Airflow DAG UI](assets/airflow_dag_ui.png)
+```
+
+##  DAG Screenshot
+
+This is the Airflow DAG UI for the pipeline.  
+It shows the sequence of tasks:  
+1. Check if the source folder exists in HDFS.  
+2. Validate the CSV files schema using PySpark.  
+3. Backup the files to an archive folder.  
+4. Copy the files to a destination folder.  
+5. Send a success email notification.  
+
+- ![Airflow DAG UI](assets/airflow_dag_ui.png)
