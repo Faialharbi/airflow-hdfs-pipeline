@@ -5,13 +5,16 @@ Airflow DAG to validate CSVs in HDFS, archive them, and copy them to a destinati
 ##  Project Structure
 
 
+
+
+
 airflow-orchestration/
 ├─ dags/
-│ └─ copy_transactions_task2_min.py # DAG definition
+│ └─ copy_transactions_task2_min.py
 ├─ jobs/
-│ └─ validate_csvs.py 
+│ └─ validate_csvs.py
 ├─ assets/
-│ └─ airflow_dag_ui.png 
+│ └─ airflow_dag_ui.png
 ├─ requirements.txt
-└─ .gitignore 
+└─ .gitignore
 
