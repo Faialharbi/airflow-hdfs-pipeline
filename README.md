@@ -26,11 +26,5 @@ airflow-orchestration/
 └── .gitignore
 
 
-
-
-
-
-🔑 ملاحظات:  
-- السطر:  
-  ```markdown
+``` 
   - ![Airflow DAG UI](assets/airflow_dag_ui.png)
