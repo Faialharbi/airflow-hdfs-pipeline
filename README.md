@@ -5,7 +5,7 @@ The validation step is powered by **PySpark**, ensuring schema consistency befor
 
 ---
 
-##  Features
+## Features
 - **CSV Validation**: Uses PySpark to verify schema and columns in incoming CSVs.  
 - **Archiving**: Automatically moves validated CSVs to an archive folder with a timestamped partition.  
 - **Data Copying**: Copies archived CSVs to a destination HDFS path for downstream processing.  
@@ -13,7 +13,7 @@ The validation step is powered by **PySpark**, ensuring schema consistency befor
 
 ---
 
-##  Project Structure
+## Project Structure
 ```bash
 airflow-orchestration/
 ├── dags/
@@ -22,7 +22,5 @@ airflow-orchestration/
 │   └── validate_csvs.py                     
 ├── assets/
 │   └── airflow_dag_ui.png
-![Airflow DAG UI](assets/airflow_dag_ui.png)
-                   
 ├── requirements.txt                        
-└── .gitignore                               
+└── .gitignore
